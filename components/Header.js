@@ -37,7 +37,7 @@ function Header() {
                 width={40}
                 height={40}
             />
-            <p className='whitespace-nowrap font-semibold pr-3'>Sanjar</p>
+            <p className='whitespace-nowrap font-semibold pr-3'>{session.user.name}</p>
                 <HiOutlineViewGrid className="icon" size={15} />
                 <AiFillMessage className="icon" size={15} />
                 <BsBell className="icon" size={15} />
