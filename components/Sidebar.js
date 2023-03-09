@@ -2,7 +2,6 @@ import {FaUserFriends} from 'react-icons/fa'
 import {BsCalendarDate} from 'react-icons/bs'
 import {MdOutlineGroups,MdOutlineExpandMore} from 'react-icons/md'
 import {HiOutlineShoppingBag,HiOutlineDesktopComputer} from 'react-icons/hi'
-import {BiUser} from 'react-icons/bi'
 import { useSession } from 'next-auth/react'
 import SidebarRow from './SidebarRow'
 function Sidebar() {

@@ -6,9 +6,12 @@ function SidebarRow({src,Icon,title}) {
       {src && (
         <Image className="rounded-full" 
           src={src}
+          alt="user"
           width={30}
           height={30}
-          layout="fixed"
+          sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw"
         />
       )}
       {

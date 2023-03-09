@@ -8,9 +8,12 @@ module.exports = {
     domains:[
       "platform-lookaside.fbsbx.com",
       "www.facebook.com",
+      "firebasestorage.googleapis.com",
       "scontent.ftas1-1.fna.fbcdn.net",
       "scontent.ftas1-2.fna.fbcdn.net",
       "scontent.ftas2-1.fna.fbcdn.net",
+      "scontent.ftas2-2.fna.fbcdn.net",
+      "scontent.ftas2-2.fna.fbcdn.net",
     ]
   }
 }

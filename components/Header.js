@@ -36,6 +36,9 @@ function Header() {
                 className="rounded-full cursor-pointer"
                 width={40}
                 height={40}
+                sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw"
             />
             <p className='whitespace-nowrap font-semibold pr-3'>{session.user.name}</p>
                 <HiOutlineViewGrid className="icon" size={15} />

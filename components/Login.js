@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import {BsFacebook} from 'react-icons/bs'
 import React from 'react'
 import { signIn } from 'next-auth/react'
